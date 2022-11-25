@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="p-3 border-gray-200 rounded mb-20 bg-gray-50 dark:bg-gray-400 dark:border-gray-700">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <a href="index.html" class="flex items-center">
+                    <img src="Vaversalogo.png" class="h-6 mr-3 sm:h-10" alt="Vaversa Logo" />
+                </a>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+                    <ul
+                        class="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                        <li>
+                            <a href="index.html"
+                                class="block py-2 pl-3 pr-4 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:p-0 md:dark:text-white md:hover:text-purple-800 dark:bg-blue-600 md:dark:bg-transparent">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://vaversa.com/plant-catalogue"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-green-700 md:border-0 md:hover:text-purple-800 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Plants</a>
+                        </li>
+                        <li>
+                            <a href="prioriteit.html"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-green-700 md:border-0 md:hover:text-purple-800 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Priorities</a>
+                        </li>
+                        <li>
+                            <a href="contact.html"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-green-700 md:hover:text-purple-800 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mb-32 text-center text-gray-800">
+        <div class="max-w-[700px] mx-auto px-3 lg:px-6">
+            <h2 class="text-3xl font-bold mb-12 text-green-700">Contact us</h2>
+            <form>
+                <div class="form-group mb-6">
+                    <input type="text"
+                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Name" />
+                </div>
+                <div class="form-group mb-6">
+                    <input type="email"
+                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Email address" />
+                </div>
+                <div class="form-group mb-6">
+                    <textarea
+                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" rows="3" placeholder="Message"></textarea>
+                </div>
+                <button type="submit"
+                    class="w-full px-6 py-2.5 bg-purple-800 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg transition duration-150 ease-in-out">
+                    Send
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
